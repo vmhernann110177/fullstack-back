@@ -25,4 +25,22 @@ def pizza():
     ### La siguiente linea la puse para ver un html en postman con nombre y apellido, si funciona
     ### pero no se pide en la actividad y por ello, solo lo dejo comentado:
     # return "<html><body><div>Hello "+p1+ " " + p2 +"!</div></body></html>"
-    
+
+
+    # Yo no tengo esto, va despues de la linea=23:
+    # @.route("/checksize",methods=['POST'])
+    # def checksize():
+    # """
+    # comprueba disponibilidad de un tamaño de pizza
+    # debe capturar el parametro "size"  de la request.
+    # debe retornar siempre "Disponible"
+    # Excepto para el tamaño "S" que debe retornar "No disponible"
+    # """
+    # size = request.form.get("size")
+    # if sieze == "S":
+    #       status = "No disponible"
+    # else:
+    # status = "Dsiponible"
+    #return Response(status, 200, {'access-Control-Allow-Origin': '#'})
+
+
