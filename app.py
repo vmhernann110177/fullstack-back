@@ -43,5 +43,3 @@ def pizza():
     # status = "Dsiponible" 
     #return Response(status, 200, {'access-Control-Allow-Origin': '#'}) 
     
-
-
