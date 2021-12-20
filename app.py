@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import request
 from flask import Flask, request
-from flask import Flask, request, redirect
+from flask import Flask, request, redirect, Response
 from persistencia import guardar_pedido
 
 app = Flask(__name__)
