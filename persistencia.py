@@ -4,4 +4,4 @@ def guardar_pedido(nombre, apellidos):
         file.write("-" + nombre + " " + apellidos + "\n")
         file.close()
 
-guardar_pedido("Victor_", "Hernández_")
+# guardar_pedido("Victor_", "Hernández_")
