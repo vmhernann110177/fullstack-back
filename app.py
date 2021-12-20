@@ -12,6 +12,9 @@ def hello():
 
 @app.route("/pizza", methods=['POST'])
 def pizza():
+    """
+    pedir una pizza
+    """
     p1 = request.form.get("p1")
     p2 = request.form.get("p2")
     #Aqui se imprime en la condsola de python, NOmbre y Apellido.
@@ -28,18 +31,18 @@ def pizza():
 
     ####--------------#### 
     # Yo no tengo esto, va despues de la linea=23: 
-    # @.route("/checksize",methods=['POST']) 
-    # def checksize(): 
-    # """ 
-    # comprueba disponibilidad de un tamaño de pizza 
-    # debe capturar el parametro "size"  de la request. 
-    # debe retornar siempre "Disponible" 
-    # Excepto para el tamaño "S" que debe retornar "No disponible" 
-    # """ 
-    # size = request.form.get("size") 
-    # if sieze == "S": 
-    #       status = "No disponible" 
-    # else: 
-    # status = "Dsiponible" 
-    #return Response(status, 200, {'access-Control-Allow-Origin': '#'}) 
+    @.route("/checksize",methods=['POST']) 
+    def checksize(): 
+    """ 
+    comprueba disponibilidad de un tamaño de pizza 
+    debe capturar el parametro "size"  de la request. 
+    debe retornar siempre "Disponible" 
+    Excepto para el tamaño "S" que debe retornar "No disponible" 
+    """ 
+    size = request.form.get("size") 
+    if sieze == "S": 
+          status = "No disponible" 
+    else: 
+    status = "Dsiponible" 
+    return Response(status, 200, {'access-Control-Allow-Origin': '#'}) 
     
