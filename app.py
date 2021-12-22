@@ -46,5 +46,5 @@ def checksize():
     if size == "S":
         status = "No disponible"
     else:
-        status = "Dsiponible"
+        status = "Disponible"
     return Response(status, 200, {'access-Control-Allow-Origin': '#'})
