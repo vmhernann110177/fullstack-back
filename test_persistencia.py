@@ -1,10 +1,8 @@
-
-
 """
 Pruebas persistencia.
 """
 from persistencia import guardar_pedido
-#
+
 def test_guardar_pedido():
     """
     prueba general
@@ -16,8 +14,4 @@ def test_guardar_pedido():
         secondline = file.readline()
         file.close()
     assert firstline == "-Victor Hernández\n"
-    assert firstline == "-Michael Jordan\n"       
-        # file.write("")
-        # file.close()
-
-        
+    assert secondline == "-Michael Jordan\n"
